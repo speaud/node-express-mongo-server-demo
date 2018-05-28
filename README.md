@@ -1,6 +1,9 @@
-Express
 Node
+Express
+nodemon*
+Babel*
+
 MongoDB
 Mongoose
-nodemon
-Babel
+
+*=dev

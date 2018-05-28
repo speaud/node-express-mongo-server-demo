@@ -4,7 +4,10 @@
   "description": "init",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js --exec ./node_modules/.bin/babel-node"
+    "clean": "rm -rf ./dist/",
+    "start": "nodemon ./src/index.js --exec ./node_modules/.bin/babel-node",
+    "babel-build": "./node_modules/.bin/babel ./src/ -d ./dist/",
+    "build": "npm run clean && npm run babel-build"
   },
   "repository": {
     "type": "git",
