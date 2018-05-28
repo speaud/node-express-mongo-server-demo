@@ -1,9 +1,17 @@
 Node
 Express
 nodemon*
-Babel*
+
 
 MongoDB
 Mongoose
 
-*=dev
+
+
+
+---
+
+todos
+[] add demo routes in src/controllers/
+[] config mongo setup
+[] add basic testing
